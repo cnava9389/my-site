@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.background_night {
+  background-image: url("./assets/starry_night.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  ;
+}
+.sections {
+  display: flex;
+  height: 50vh;
+  margin:30px;
+}
+.nav-stick{
+    top: 0px;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+}
+
+.anchor{display: block; position: relative; top: -250px; visibility: hidden;}
+
+.textFont{
+  font-family: 'Alegreya', serif
+}
+
+.notification{
+  position: fixed;
+  top: -10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index:50;
+  height:20vh;
+  width:50vw;
+}
+
+.outer {
+  overflow: hidden;
+  position: relative;
+}
+.innerL {
+  position: absolute;
+  width: 100%;
+  right: 900px;
+  top: 50px;
+}
+.innerR {
+  position: absolute;
+  width: 100%;
+  right: -900px;
+  top: 50px;
+}
+
